@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Nibou
+
+  Created by Ongraph on 5/8/19.
+  Copyright © 2019 OnGraph. All rights reserved.
+*/
+
+
+/**
+ MARK: - Choose Language
+ */
+"NEXT" = "NEXT";
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "Choose your \n language AR";
+
+
+/**
+ MARK: - Walkthrough
+ */
+"WALKTHROUGH_DESC_VIEW1" = "A short description / pitch to the user describing what to expect from Nibou.";
+"WALKTHROUGH_DESC_VIEW2" = "Explain to the user how filling the survey can match them to the best therapist available.";
+"WALKTHROUGH_DESC_VIEW3" = "Chats with the therapist using Nibou are secure.";
+"WALKTHROUGH_DESC_VIEW4" = "Explain how user pays only for the time a therapist spends getting back to the user using pre-filled credit. The user can see when therapist is online.";
+"WALKTHROUGH_TITLE_VIEW1" = "Welcome to Nibou";
+"WALKTHROUGH_TITLE_VIEW2" = "Step 1 : Survey";
+"WALKTHROUGH_TITLE_VIEW3" = "Step 2 : Secure";
+"WALKTHROUGH_TITLE_VIEW4" = "Step 3 : Value";
+"LETS_BEGIN" = "LET'S BEGIN";
+
+/**
+ MARK: - Choose User Type
+ */
+"NEW_USER" = "I AM NEW USER";
+"RETURNING_USER" = "I AM RETURNING USER";
+
+/**
+ MARK: - Sign Up
+ */
+"SIGN_UP" = "SIGN UP";

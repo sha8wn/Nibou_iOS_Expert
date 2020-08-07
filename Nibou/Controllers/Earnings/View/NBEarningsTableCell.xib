@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-B.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NBEarningsTableCell" rowHeight="100" id="KGk-i7-Jjw" customClass="NBEarningsTableCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAY 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVY-bX-0cS">
+                        <rect key="frame" x="20" y="15" width="302" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="f28-8y-E8K"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                        <color key="textColor" name="Dark_Blue_Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140 Min - paid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOf-yH-v2b">
+                        <rect key="frame" x="20" y="43" width="302" height="21.5"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                        <color key="textColor" name="Light_Blue"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKF-bL-Bfh">
+                        <rect key="frame" x="316" y="29.5" width="78" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="YFK-I3-ATy"/>
+                            <constraint firstAttribute="width" constant="78" id="sfx-MY-28v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                        <color key="textColor" name="Dark_Blue_Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="sOf-yH-v2b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="6K0-53-6Dl"/>
+                    <constraint firstAttribute="trailing" secondItem="fVY-bX-0cS" secondAttribute="trailing" constant="92" id="7jg-ag-uR9"/>
+                    <constraint firstAttribute="trailing" secondItem="mKF-bL-Bfh" secondAttribute="trailing" constant="20" id="BIT-Mj-GIB"/>
+                    <constraint firstAttribute="trailing" secondItem="sOf-yH-v2b" secondAttribute="trailing" constant="92" id="O1I-BI-Ixq"/>
+                    <constraint firstItem="fVY-bX-0cS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Ufi-Im-7rs"/>
+                    <constraint firstItem="fVY-bX-0cS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Va0-qb-ax7"/>
+                    <constraint firstItem="sOf-yH-v2b" firstAttribute="top" secondItem="fVY-bX-0cS" secondAttribute="bottom" constant="7" id="ZkU-PI-HLT"/>
+                    <constraint firstAttribute="bottom" secondItem="sOf-yH-v2b" secondAttribute="bottom" constant="15.5" id="jTe-yr-7Xf"/>
+                    <constraint firstItem="mKF-bL-Bfh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="mFz-df-bMq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbl_AED" destination="mKF-bL-Bfh" id="WJY-v0-dvd"/>
+                <outlet property="lbl_minPaid" destination="sOf-yH-v2b" id="kj8-fx-Lj7"/>
+                <outlet property="lbl_month" destination="fVY-bX-0cS" id="CtU-CP-3p5"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="97.767857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Dark_Blue_Color">
+            <color red="0.16078431372549021" green="0.27450980392156865" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Light_Blue">
+            <color red="0.59607843137254901" green="0.63921568627450975" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

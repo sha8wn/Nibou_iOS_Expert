@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-M.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TimingsTableViewCell" id="KGk-i7-Jjw" customClass="TimingsTableViewCell" customModule="Nibou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sb-4w-IUo">
+                        <rect key="frame" x="20" y="7" width="52" height="30"/>
+                        <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" name="Blue_Color"/>
+                        </state>
+                    </button>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dKP-R6-RP6">
+                        <rect key="frame" x="190" y="5" width="110" height="33.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6n2-HT-ICA">
+                                <rect key="frame" x="60" y="2" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="nBT-3h-HaT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                                <state key="normal" title="15:00">
+                                    <color key="titleColor" name="Blue_Color"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPP-Rx-NXm">
+                                <rect key="frame" x="52" y="6.5" width="8" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRD-wE-0SG">
+                                <rect key="frame" x="2" y="2" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AIb-TN-Qqo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                                <state key="normal" title="09:00">
+                                    <color key="titleColor" name="Blue_Color"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="4Uu-MH-oYY"/>
+                            <constraint firstItem="RRD-wE-0SG" firstAttribute="centerY" secondItem="6n2-HT-ICA" secondAttribute="centerY" id="Pzq-Mf-LbK"/>
+                            <constraint firstItem="rPP-Rx-NXm" firstAttribute="centerY" secondItem="6n2-HT-ICA" secondAttribute="centerY" id="cjm-Ok-uMh"/>
+                            <constraint firstItem="6n2-HT-ICA" firstAttribute="centerY" secondItem="dKP-R6-RP6" secondAttribute="centerY" id="h6P-sK-Y8G"/>
+                            <constraint firstItem="6n2-HT-ICA" firstAttribute="leading" secondItem="rPP-Rx-NXm" secondAttribute="trailing" id="h77-lk-vsR"/>
+                            <constraint firstAttribute="trailing" secondItem="6n2-HT-ICA" secondAttribute="trailing" id="pco-3f-mKt"/>
+                            <constraint firstItem="rPP-Rx-NXm" firstAttribute="leading" secondItem="RRD-wE-0SG" secondAttribute="trailing" id="tHy-e5-V5O"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dKP-R6-RP6" secondAttribute="trailing" constant="20" id="3jb-sL-boE"/>
+                    <constraint firstItem="0sb-4w-IUo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="AGo-PJ-ll5"/>
+                    <constraint firstItem="dKP-R6-RP6" firstAttribute="centerY" secondItem="0sb-4w-IUo" secondAttribute="centerY" id="Jtv-pa-vr2"/>
+                    <constraint firstAttribute="bottom" secondItem="dKP-R6-RP6" secondAttribute="bottom" constant="5" id="KAZ-Os-NvO"/>
+                    <constraint firstItem="0sb-4w-IUo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="lGf-oA-gwK"/>
+                    <constraint firstItem="dKP-R6-RP6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="pag-uS-8B3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnEndTime" destination="6n2-HT-ICA" id="xnX-H9-scy"/>
+                <outlet property="btnStartTime" destination="RRD-wE-0SG" id="WpM-TQ-6qT"/>
+                <outlet property="btnTitle" destination="0sb-4w-IUo" id="Ong-pb-1od"/>
+                <outlet property="timingView" destination="dKP-R6-RP6" id="JwW-ck-fQd"/>
+            </connections>
+            <point key="canvasLocation" x="111.59420289855073" y="55.580357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Blue_Color">
+            <color red="0.19215686274509805" green="0.27843137254901962" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

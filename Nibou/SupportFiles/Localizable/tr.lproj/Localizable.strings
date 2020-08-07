@@ -1,0 +1,222 @@
+/* 
+  Localizable.strings
+  Nibou
+
+  Created by Ongraph on 5/8/19.
+  Copyright © 2019 OnGraph. All rights reserved.
+*/
+
+/**
+ MARK: - Common
+ */
+"NEXT" = "Sonraski";
+"CANCEL" = "İptal";
+"DONE" = "Bitti";
+"OK" = "TAMAM";
+"LOADING" = "Yükleniyor";
+"SOMETHING_WENT_WRONG" = "Bir şeyler yanlış gitti. Lütfen tekrar deneyin";
+"SUCCESS" = "Başarı";
+"ERROR" = "HATA";
+"DELETE" = "Sil";
+"INTERNET" = "İnternet bağlantısı koptu";
+"NO_DATA_FOUND" = "Veri bulunamadı";
+"SERVER_TIME_OUT" = "Zamanaşımı oluştu. Lütfen tekrar deneyin";
+"SAVE" = "Kaydet";
+"YES" = "DEVAM";
+"NO" = "İPTAL";
+
+/**
+ MARK: - Validation
+ */
+"USER_NAME_EMPTY" = "Lütfen ad soyad giriniz.";
+"ALIAS_EMPTY" = "Lütfen kullanıcı adınızı giriniz.";
+"EMAIL_EMPTY" = "Geçersiz E-Posta";
+"PASSWORD_EMPTY" = "Lütfen şifrenizi giriniz.";
+"PASSWORD_INVALID" = "Geçersiz şifre";
+"COUNTRY_EMPTY" = "Lütfen ülke giriniz";
+"DOB_EMPTY" = "Lütfen doğum tarihinizi seçin";
+"SAME_PASSWORD_INVALID" = "Yeni Şifre ve Yeni Şifreyi Yeniden Girin aynı olmalıdır";
+"CITY_EMPTY" = "Lütfen şehir adını girin.";
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "Dilinizi seçin";
+
+
+/**
+ MARK: - Sign Up
+ */
+"FULL_NAME" = "Ad Soyad";
+"ALIAS" = "Kullanıcı Adı";
+"EMAIL_ADDRESS" = "E-Posta";
+"PASSWORD" = "Şifre";
+"COUNTRY" = "Ülke";
+"DOB" = "DOB";
+"PRIVACY_POLICY" = "Gizlilik Politikası";
+"TERMS_AND_CONDITIONS" = "Şartlar ve koşullar";
+
+/**
+ MARK: - Login
+ */
+"LOGIN" = "Giriş";
+"INVALID_LOGIN" = "Yanlış kullanıcı adı ya da parola";
+"FORGOT_PASSWORD" = "Parolanızı mı unuttunuz?";
+
+/**
+ MARK: - Reset Password View Controller
+ */
+"RESET_PASSWORD" = "Şifremi sıfırla";
+"RESET_PASSWORD_STATIC_DESC" = "Şifre sıfırlama yönergeleri için e-posta adresinizi girin";
+"RESET_PASSWORD_SUCCESS_DESC" = "Geçerli bir E-Posta girdiyseniz, şifre sıfırlama yönergeleri E-Postanıza gönderilecektir.";
+"RESET_PASSWORD_FAILURE" = "Böyle bir hesap yok.";
+
+
+/**
+ MARK: - Setting
+ */
+"LOGOUT" = "Çıkış Yap";
+"LOGOUT_ALERT" = "Çıkış yapmak istediğinize emin misiniz?";
+"SETTINGS" = "Ayarlar";
+"PROFILE" = "Profil";
+"UPDATE_PROFILE" = "Profili güncelle";
+"SHORT_BIO" = "Kısa özgeçmiş";
+"CHANGE_PASSWORD" = "Şifrenizi değistirin";
+"MANAGE_TIMINGS" = "Uygun saatler";
+"EXPERTISE" = "Uzmanlık";
+"LANGUAGE" = "Dil";
+"FEEDBACK" = "Geri bildirim";
+
+/**
+ MARK: - Change Password
+ */
+"PASSWORD_CHANGE_SUCCESSFULLY" = "Şifre başarıyla değiştirildi";
+"CHANGE_PASSWORD_HEADER" = "Şifrenizi\nyenileyin";
+"OLD_PASSWORD" = "Mevcut şifre";
+"NEW_PASSWORD" = "Yeni şifre";
+"CONFIRM_PASSWORD" = "Yeni şifreyi tekrar girin";
+
+
+/**
+ MARK: - Profile
+ */
+"PROFILE_UPDATE_SUCCESSFULLY" = "Profil başarıyla güncellendi";
+
+/**
+ MARK: - Short Bio
+ */
+"EMPTY_SHORT_BIO" = "Lütfen kısaca kendinizi tanıtın.";
+"SHORT_BIO_DESC" = "Nibou Profiliniz için birkaç cümle ile kendinizi anlatın. Daha sonra isterseniz, değiştirebilirsiniz";
+"ENTER_BIO" = "Lütfen kısaca kendinizi tanıtın.";
+
+/**
+ //MARK: - Profile
+ */
+"CITY" = "Şehir";
+"UPLOAD_PDF" = "Yeni PDF Profili Yükle";
+"VIEW_PDF" = "Mevcut PDF Profilini Görüntüle";
+"CHOOSE_IMAGE" = "Resim Seç";
+"DELETE_PDF" = "Bu pdf’i silmek mi istiyorsunuz?";
+"SUCCESS_DELETE_PDF" = "Pdf profiliniz başarıyla silindi";
+
+/**
+ MARK: - CHAT VC
+ */
+"GALLERY" = "GALLERY";
+"CAMERA" = "CAMERA";
+"BOOKMARK_UPDATE_SUCCESSFULLY" = "Yer işareti başarıyla eklendi";
+"CHAT_ENTER_MESSAGE" = "Lütfen yeni konu girin";
+"CHAT_SESSION_ALREADY_ENDED" = "Oturumunuz sona erdi.";
+
+
+
+/**
+ MARK: - EXPERTISE VC
+ */
+"DELETE_BTN" = "Sil";
+"SAVE_BTN" = "Kaydet";
+"SELECT_SPECIALIZATION" = "Uzmanlık Seç";
+"SPECIALIZATION_ADDED_SUCCESS" = "Uzmanlık başarıyla silindi";
+"SPECIALIZATION_UPDATE_SUCCESS" = "Uzmanlık başarıyla kaydedildi";
+"ADD_ANOTHER" = "Başka bir tane ekle";
+
+/**
+ MARK: - LANGUAGE VC
+ */
+"LANGUAGES_HEADER" = "Dil";
+"LANGUAGE_DELETED_SUCCESS" = "Dil başarıyla silindi";
+"LANGUAGE_UPDATED_SUCCESS" = "Dil başarıyla kaydedildi";
+"SELECT_LANGUAGE" = "Dil Seçin";
+
+/**
+ MARK: - FEEDBACK VC
+ */
+"ENTER_FEEDBACK" = "Lütfen geri bildirim iletinizi girin.";
+"FEEDBACK_SUBMITED_SUCCESS" = "Geri bildirim başarıyla iletildi";
+"ENTER_SUBJECT" = "Lütfen konuyu giriniz";
+"SUBMIT_FEEDBACK" = "Gönder";
+/**
+ MARK: - Weekdays
+ */
+"MONDAY" = "Pazartesi";
+"TUESDAY" = "Salı";
+"WEDNESDAY" = "Çarşamba";
+"THRUSDAY" = "Perşembe";
+"FRIDAY" = "Cuma";
+"SATURDAY" = "Cumartesi";
+"SUNDAY" = "Pazar";
+
+/**
+ MARK: - TIMINGS VC
+ */
+"TIMINGS_UPDATED_SUCCESS" = "Zamanlama başarıyla güncellendi";
+"WARNING" = "WARNING";
+"TIMIMG_DELETE_POPUP_DESC" = "Seçilen zamanlamayı silmek istiyor musunuz?";
+"SELECT_START_TIME" = "Lütfen Başlangıç ​​Saati'ni seçin";
+"INVALID" = "Geçersiz";
+"TIMINGS_DELETED_SUCCESS" = "Zamanlama başarıyla kaldırıldı";
+"TIMINGS_HEADER" = "Uygun saatler";
+
+/**
+ MARK: - CHAT LIST VC
+ */
+"TODAY" = "Bugün";
+"YESTERDAY" = "Dün";
+"IMAGE" = "Görüntü";
+
+/**
+ MARK: - EARNING VC
+ */
+"EARNING_HEADER" = "Kazanç";
+"T_CUSTOMER_NAME" = "Müşteri adı:";
+"T_TIME" = "Saat:";
+"MINS" = "Dak";
+"T_EARNED" = "Kazanılan:";
+"T_TRANSACTION_ID" = "İşlem kimliği:";
+"T_DATE" = "Tarih:";
+"T_ROOM" = "Oda:";
+"T_PAID" = "Ödendi";
+"T_UNPAID" = "Ödenmedi";
+
+/**
+ MARK: - NOTIFICATION
+ */
+"NEW_ROOM_CREATED" = "Yeni Sohbet Odası Oluşturuldu";
+"CHAT_WITH_EXPERT" = "Müşteriyle sohbet et.";
+"CHAT_SESSION_END" = "Sohbet Oturumu Sonu";
+"CHAT_SESSION_TIMEOUT" = "Sohbet Oturumu Zaman Aşımı";
+"DELAYED_RESPONSE" = "Gecikmiş cevap";
+"DELAYED_RESPONSE_MESSAGE" = "Bir Nibou Müşterisine son %@ dakika içinde cevap verilmedi.";
+
+
+/*
+ MARK: - DASHBOARD
+ */
+"DASHBOARD_HEADER" = "Kontrol Paneli";
+"VIEW_REVIEWS_RATING" = "Yorumları ve değerlendirmeleri görüntüle";
+"VIEW_EARNIGNS_HISTORY" = "Kazanç geçmişini görüntüle";
+"TOTAL" = "toplam";
+"THIS_MONTH" = "bu ay";
+"JOINED_ON" = "Katıldı";
+"REVIEWS" = "Yorumlar";
+"SEARCH" = "Ara";

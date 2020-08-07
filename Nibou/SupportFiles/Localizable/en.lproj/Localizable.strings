@@ -1,0 +1,231 @@
+/* 
+  Localizable.strings
+  Nibou
+
+  Created by Ongraph on 5/8/19.
+  Copyright © 2019 OnGraph. All rights reserved.
+*/
+
+/**
+ MARK: - Common
+ */
+"NEXT" = "NEXT";
+"CANCEL" = "CANCEL";
+"DONE" = "DONE";
+"OK" = "OK";
+"LOADING" = "Loading";
+"SOMETHING_WENT_WRONG" = "Something Went Wrong";
+"SUCCESS" = "SUCCESS";
+"ERROR" = "ERROR";
+"DELETE" = "DELETE";
+"INTERNET" = "No Internet Connection";
+"NO_DATA_FOUND" = "No Data Found";
+"SERVER_TIME_OUT" = "Timeout, Please try again";
+"SAVE" = "Save";
+"YES" = "YES";
+"NO" = "NO";
+
+/**
+ MARK: - Validation
+ */
+"USER_NAME_EMPTY" = "Please enter your name.";
+"ALIAS_EMPTY" = "Please enter alias";
+"EMAIL_EMPTY" = "Please enter a valid email address";
+"PASSWORD_EMPTY" = "Please enter a valid password with at least 6 characters";
+"PASSWORD_INVALID" = "Please enter a valid password with at least 6 characters";
+"COUNTRY_EMPTY" = "Please select country";
+"DOB_EMPTY" = "Please select DOB";
+"CITY_EMPTY" = "Please enter city";
+"SAME_PASSWORD_INVALID" = "New password and repeated password should be same";
+
+
+/**
+ MARK: - Choose Language
+ */
+"CHOOSE_LANGUAGE_STATIC" = "Choose your \n language";
+
+
+/**
+ MARK: - Sign Up
+ */
+"SIGN_UP" = "SIGN UP";
+"SIGN_UP_ALERT_MESSAGE" = "By signing up, you are agreeing to Nibou’s terms & conditions.";
+"SIGN_UP_HEADER_TITLE" = "Sign up";
+"SIGN_UP_HEADER_DESC" = "Your privacy if our number one priority. To understand why we require this information, Please review our privacy policy and terms & conditions";
+"FULL_NAME" = "Full Name";
+"ALIAS" = "Alias";
+"EMAIL_ADDRESS" = "Email";
+"PASSWORD" = "Password";
+"COUNTRY" = "Country";
+"DOB" = "DOB";
+"ALIAS_INFO_DESC" = "Expert will not get access to your name and will refer to you using your alias";
+"COUNTRY_INFO_DESC" = "We take this information to match you with the best available experts.";
+"PRIVACY_POLICY" = "privacy policy";
+"TERMS_AND_CONDITIONS" = "terms & conditions";
+"REGISTER_SUCCESS_DESC" = "You have successfully signed up with Nibou. You are one step closer to a happier life";
+"ALREADY_REGISTERED" = "Account has already registered with this email. You need to login to continue";
+
+/**
+ MARK: - Login
+ */
+"LOGIN" = "LOGIN";
+"INVALID_LOGIN" = "Invalid Email or Password";
+"FORGOT_PASSWORD" = "Forgot password?";
+
+/**
+ MARK: - Reset Password View Controller
+ */
+"RESET_PASSWORD" = "RESET MY PASSWORD";
+"RESET_PASSWORD_STATIC_DESC" = "Enter your email below to receive your password reset instructions";
+"RESET_PASSWORD_SUCCESS_DESC" = "If you have entered a valid email, you will receive an email with reset instructions.";
+"RESET_PASSWORD_FAILURE" = "This account has not yet been created";
+
+
+/**
+ MARK: - Setting
+ */
+"LOGOUT" = "LOGOUT";
+"LOGOUT_ALERT" = "Do you really want to logout?";
+"SETTINGS" = "Settings";
+"PROFILE" = "Profile";
+"UPDATE_PROFILE" = "Update profile";
+"SHORT_BIO" = "Short bio";
+"CHANGE_PASSWORD" = "Change password";
+"MANAGE_TIMINGS" = "Manage timings";
+"EXPERTISE" = "Expertise";
+"LANGUAGE" = "Languages";
+"FEEDBACK" = "Feedback";
+
+/**
+ MARK: - Change Password
+ */
+"PASSWORD_CHANGE_SUCCESSFULLY" = "Your password has been changed successfully.";
+"CHANGE_PASSWORD_HEADER" = "Reset\nPassword";
+"OLD_PASSWORD" = "Current Password";
+"NEW_PASSWORD" = "New Password";
+"CONFIRM_PASSWORD" = "Confirm New Password";
+
+/**
+ MARK: - Profile
+ */
+"PROFILE_UPDATE_SUCCESSFULLY" = "Your profile has been updated successfully.";
+
+/**
+ MARK: - Short Bio
+ */
+"EMPTY_SHORT_BIO" = "Please enter bio.";
+"SHORT_BIO_DESC" = "Write a few sentences about yourself for your Nibou profile page. You can change this later.";
+"ENTER_BIO" = "Enter your Bio";
+
+/**
+ //MARK: - Profile
+*/
+"CITY" = "City";
+"UPLOAD_PDF" = "UPLOAD PDF PROFILE";
+"VIEW_PDF" = "VIEW CURRENT PDF PROFILE";
+"CHOOSE_IMAGE" = "Choose Image";
+"CAMERA" = "Camera";
+"GALLARY" = "Gallery";
+"DELETE_PDF" = "Do you want to delete profile PDF?";
+"SUCCESS_DELETE_PDF" = "Profile PDF deleted successfully";
+
+/**
+ MARK: - CHAT VC
+ */
+"GALLERY" = "GALLERY";
+"CAMERA" = "CAMERA";
+"BOOKMARK_UPDATE_SUCCESSFULLY" = "Bookmark updates successfully.";
+"CHAT_ENTER_MESSAGE" = "Please enter message";
+"CHAT_SESSION_ALREADY_ENDED" = "This session has already ended";
+
+/**
+ MARK: - EXPERTISE VC
+ */
+"DELETE_BTN" = "delete";
+"SAVE_BTN" = "save";
+"SELECT_SPECIALIZATION" = "Select Expertise";
+"SPECIALIZATION_ADDED_SUCCESS" = "Expertise deleted successfully";
+"SPECIALIZATION_UPDATE_SUCCESS" = "Expertise saved successfully";
+"ADD_ANOTHER" = "ADD ANOTHER";
+
+/**
+ MARK: - LANGUAGE VC
+ */
+"LANGUAGES_HEADER" = "Languages";
+"LANGUAGE_DELETED_SUCCESS" = "Language deleted successfully";
+"LANGUAGE_UPDATED_SUCCESS" = "Language updated successfully";
+"SELECT_LANGUAGE" = "Select Language";
+
+/**
+ MARK: - FEEDBACK VC
+ */
+"ENTER_SUBJECT" = "Enter your Subject";
+"ENTER_FEEDBACK" = "Enter your feedback";
+"FEEDBACK_SUBMITED_SUCCESS" = "Feedback submitted successfully";
+"SUBMIT_FEEDBACK" = "SUBMIT FEEDBACK";
+
+/**
+ MARK: - Weekdays
+ */
+"MONDAY" = "Monday";
+"TUESDAY" = "Tuesday";
+"WEDNESDAY" = "Wednesday";
+"THRUSDAY" = "Thursday";
+"FRIDAY" = "Friday";
+"SATURDAY" = "Saturday";
+"SUNDAY" = "Sunday";
+
+/**
+ MARK: - TIMINGS VC
+ */
+"TIMINGS_UPDATED_SUCCESS" = "Timings updated successfully";
+"WARNING" = "WARNING";
+"TIMIMG_DELETE_POPUP_DESC" = "Do you want to delete selected timing?";
+"SELECT_START_TIME" = "Please select start time";
+"INVALID" = "INVALID";
+"TIMINGS_DELETED_SUCCESS" = "Timing deleted successfully";
+"TIMINGS_HEADER" = "Timings";
+
+
+/**
+ MARK: - CHAT LIST VC
+ */
+"TODAY" = "Today";
+"YESTERDAY" = "Yesterday";
+"IMAGE" = "Image";
+
+/**
+ MARK: - EARNING VC
+ */
+"EARNING_HEADER" = "Earnings";
+"T_CUSTOMER_NAME" = "Customer:";
+"T_TIME" = "Time:";
+"MINS" = "Mins";
+"T_EARNED" = "Earned:";
+"T_TRANSACTION_ID" = "Transaction Id:";
+"T_DATE" = "Date:";
+"T_ROOM" = "Room:";
+"T_PAID" = "Paid";
+"T_UNPAID" = "Unpaid";
+
+/**
+ MARK: - NOTIFICATION
+ */
+"NEW_ROOM_CREATED" = "New Chat Room Created";
+"CHAT_WITH_EXPERT" = "Chat with customer.";
+"CHAT_SESSION_END" = "Chat Session End";
+"CHAT_SESSION_TIMEOUT" = "Chat Session Timeout";
+"DELAYED_RESPONSE" = "DELAYED RESPONSE";
+"DELAYED_RESPONSE_MESSAGE" = "A Nibou Customer hasn't been responded to in last %@ minutes";
+
+/*
+ MARK: - DASHBOARD
+ */
+"DASHBOARD_HEADER" = "Dashboard";
+"VIEW_REVIEWS_RATING" = "VIEW REVIEWS & RATINGS";
+"VIEW_EARNIGNS_HISTORY" = "VIEW EARNINGS HISTORY";
+"TOTAL" = "total";
+"THIS_MONTH" = "this month";
+"JOINED_ON" = "Joined On";
+"REVIEWS" = "Reviews";
+"SEARCH" = "Search";
